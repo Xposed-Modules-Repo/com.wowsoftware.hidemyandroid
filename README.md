@@ -1,5 +1,7 @@
 # HideMyAndroid
 
+![HideMyAndroid Thumbnail](images/thumbnail.png)
+
 HideMyAndroid is a privacy-focused Android module built to reduce app tracking and device fingerprinting through profile-based masking/spoofing.
 
 Official Website: https://www.hidemyandroid.com  
