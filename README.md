@@ -39,6 +39,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 
 ## Free vs Premium
 
+- Free Trial Premium: 15 days per device
 - Maximum profiles: Free 5 / Premium Unlimited
 - Maximum profile creation per day: Free 20/day / Premium Unlimited
 - Hide device identifiers: Free Partial / Premium Full (available on both plans, different coverage level)
