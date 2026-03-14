@@ -2,6 +2,10 @@
 
 ![HideMyAndroid Thumbnail](images/thumbnail.png)
 
+## Support/Discussion
+
+[XDA Thread](https://xdaforums.com/t/app-xposed-9-15-hidemyandroid-advanced-privacy-masking.4781780/)
+
 HideMyAndroid is a privacy-focused Android module built to reduce app tracking and device fingerprinting through profile-based masking/spoofing.
 
 Official Website: https://www.hidemyandroid.com  
