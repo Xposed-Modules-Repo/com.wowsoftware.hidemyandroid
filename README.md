@@ -13,6 +13,7 @@ Web App / Dashboard: https://app.hidemyandroid.com
 
 ## Requirements
 
+- Android 9.0+ (Pie or newer)
 - Rooted Android device
 - Properly working Xposed/LSPosed environment
 - If you are not familiar with Xposed modules, this project may not be suitable for your setup.
@@ -23,9 +24,9 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 
 ## Feature List
 
-- Hide Device Identifiers
+- Hide Device Identifiers (Android ID, GAID, GSF ID, Widevine DRM ID, IMEI, Serial, ...)
 - Hide VPN Connection
-- Hide Wi-Fi Information (SSID/BSSID)
+- Hide Wi-Fi Information (NAME/MAC)
 - Block LAN Scan
 - Hide Developer Mode
 - Spoof Play Store Installation
