@@ -63,6 +63,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 
 ### Premium-only
 
+- Spoof nearby Wi-Fi networks
 - Block private LAN scan behavior
 - Spoof timezone by geo
 - Spoof locale/region by geo
