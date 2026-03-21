@@ -27,6 +27,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Hide Device Identifiers (Android ID, GAID, GSF ID, Widevine DRM ID, IMEI, Serial, ...)
 - Hide VPN Connection
 - Hide Wi-Fi Information (NAME/MAC)
+- Spoof Nearby Wi-Fi Networks
 - Block LAN Scan
 - Hide Developer Mode
 - Spoof Play Store Installation
