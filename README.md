@@ -36,6 +36,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Spoof GPS Location Based on IP
 - Spoof App Identity
 - Isolated Account Environment
+- Virtual Gmail Accounts Per Profile
 - Hide Installed Applications
 - Realistic Sensor Data
 - Profile-Based System
@@ -48,29 +49,28 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Free Trial Premium: 15 days per device
 - Maximum profiles: Free 5 / Premium Unlimited
 - Maximum profile creation per day: Free 20/day / Premium Unlimited
-- Hide device identifiers: Free Partial / Premium Full (available on both plans, different coverage level)
 
-### Available on both Free and Premium
+## Pricing Table
 
-- Hide device identifiers (Partial/Full by plan)
-- Backup & restore app's data
-- Hide active VPN from apps
-- Spoof Wi-Fi SSID/BSSID
-- Hide Developer Options state
-- Spoof installer as Google Play
-- Hide installed apps list
-- Per-Profile Proxy (independent proxy per profile)
-
-### Premium-only
-
-- Spoof nearby Wi-Fi networks
-- Block private LAN scan behavior
-- Spoof timezone by geo
-- Spoof locale/region by geo
-- Spoof GPS by geo
-- Spoof app identity
-- Virtual account isolation per profile
-- Realistic sensor behavior
+| Features | Freemium | Premium (Subscription) |
+| --- | :---: | :---: |
+| Hide device identifiers (partial/full by plan) | ✅ | ✅ |
+| Backup & restore app data | ✅ | ✅ |
+| Hide active VPN from apps | ✅ | ✅ |
+| Spoof Wi-Fi SSID/BSSID | ✅ | ✅ |
+| Hide Developer Options state | ✅ | ✅ |
+| Spoof installer as Google Play | ✅ | ✅ |
+| Hide installed apps list | ✅ | ✅ |
+| Per-profile proxy (independent proxy per profile) | ✅ | ✅ |
+| Spoof nearby Wi-Fi networks |  | ✅ |
+| Block private LAN scan behavior |  | ✅ |
+| Spoof timezone by geo |  | ✅ |
+| Spoof locale/region by geo |  | ✅ |
+| Spoof GPS by geo |  | ✅ |
+| Spoof app identity |  | ✅ |
+| Virtual Gmail accounts per profile |  | ✅ |
+| Virtual account isolation per profile |  | ✅ |
+| Realistic sensor behavior |  | ✅ |
 
 ## Important Notice
 
@@ -91,3 +91,4 @@ HideMyAndroid is actively maintained with continuous feature and stability updat
 
 Feature requests are welcome.  
 If you need a specific capability, share your use case and we will prioritize based on community demand.
+
