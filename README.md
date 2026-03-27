@@ -1,4 +1,4 @@
-# HideMyAndroid
+﻿# HideMyAndroid
 
 ![HideMyAndroid Thumbnail](images/thumbnail.png)
 
@@ -42,29 +42,32 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Profile-Based System
 - Backup & Restore app's data
 - Per-Profile Proxy (each profile can use its own independent proxy configuration)
+- Hide Suspicious Keyboards
+- Virtual Default Keyboard Value
 - Many More Features
 
 ## Free vs Premium
 
-| Features | Freemium | Premium (Subscription) |
-| --- | :---: | :---: |
-| Hide device identifiers (partial/full by plan) | ✅ | ✅ |
-| Backup & restore app data | ✅ | ✅ |
-| Hide active VPN from apps | ✅ | ✅ |
-| Spoof Wi-Fi SSID/BSSID | ✅ | ✅ |
-| Hide Developer Options state | ✅ | ✅ |
-| Spoof installer as Google Play | ✅ | ✅ |
-| Hide installed apps list | ✅ | ✅ |
-| Per-profile proxy (independent proxy per profile) | ✅ | ✅ |
-| Spoof nearby Wi-Fi networks |  | ✅ |
-| Block private LAN scan behavior |  | ✅ |
-| Spoof timezone by geo |  | ✅ |
-| Spoof locale/region by geo |  | ✅ |
-| Spoof GPS by geo |  | ✅ |
-| Spoof app identity |  | ✅ |
-| Virtual Gmail accounts per profile |  | ✅ |
-| Virtual account isolation per profile |  | ✅ |
-| Realistic sensor behavior |  | ✅ |
+| Features                                          | Freemium | Premium (Subscription) |
+| ------------------------------------------------- | :------: | :--------------------: |
+| Hide device identifiers (partial/full by plan)    |    ✅    |           ✅           |
+| Backup & restore app data                         |    ✅    |           ✅           |
+| Hide active VPN from apps                         |    ✅    |           ✅           |
+| Spoof Wi-Fi SSID/BSSID                            |    ✅    |           ✅           |
+| Hide Developer Options state                      |    ✅    |           ✅           |
+| Spoof installer as Google Play                    |    ✅    |           ✅           |
+| Hide installed apps list                          |    ✅    |           ✅           |
+| Hide suspicious keyboards from enabled keyboard lists |    ✅    |           ✅           |
+| Virtual default keyboard value spoofing           |    ✅    |           ✅           |
+| Spoof nearby Wi-Fi networks                       |          |           ✅           |
+| Block private LAN scan behavior                   |          |           ✅           |
+| Spoof timezone by geo                             |          |           ✅           |
+| Spoof locale/region by geo                        |          |           ✅           |
+| Spoof GPS by geo                                  |          |           ✅           |
+| Spoof app identity                                |          |           ✅           |
+| Virtual Gmail accounts per profile                |          |           ✅           |
+| Virtual account isolation per profile             |          |           ✅           |
+| Realistic sensor behavior                         |          |           ✅           |
 
 ## Important Notice
 
