@@ -2,8 +2,6 @@
 
 ![HideMyAndroid Thumbnail](images/thumbnail.png)
 
-[English](#english) | [简体中文](#zh-cn)
-
 <a id="english"></a>
 ## English
 
