@@ -2,6 +2,8 @@
 
 ![HideMyAndroid Thumbnail](images/thumbnail.png)
 
+English | [简体中文](README.zh-CN.md)
+
 ## Support/Discussion
 
 [XDA Thread](https://xdaforums.com/t/app-xposed-9-15-hidemyandroid-advanced-privacy-masking.4781780/)
