@@ -33,6 +33,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Hide VPN Connection
 - Hide Wi-Fi Information (NAME/MAC)
 - Spoof Nearby Wi-Fi Networks
+- Spoof Nearby Bluetooth Devices
 - Block LAN Scan
 - Hide Developer Mode
 - Spoof Play Store Installation
@@ -65,6 +66,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Hide suspicious keyboards from enabled keyboard lists |    ✅    |           ✅           |
 | Virtual default keyboard value spoofing           |    ✅    |           ✅           |
 | Spoof nearby Wi-Fi networks                       |          |           ✅           |
+| Spoof nearby Bluetooth devices                    |          |           ✅           |
 | Block private LAN scan behavior                   |          |           ✅           |
 | Spoof timezone by geo                             |          |           ✅           |
 | Spoof locale/region by geo                        |          |           ✅           |
@@ -127,6 +129,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 - 隐藏 VPN 连接状态
 - 隐藏 Wi-Fi 信息（名称/MAC）
 - 伪造附近 Wi-Fi 网络
+- 伪造附近蓝牙设备
 - 阻止局域网扫描
 - 隐藏开发者模式状态
 - 伪装为通过 Play 商店安装
@@ -159,6 +162,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 在已启用键盘列表中隐藏可疑键盘                     |   ✅   |       ✅       |
 | 虚拟默认键盘值伪装                                 |   ✅   |       ✅       |
 | 伪造附近 Wi-Fi 网络                                |        |       ✅       |
+| 伪造附近蓝牙设备                                   |        |       ✅       |
 | 阻止私有局域网扫描行为                             |        |       ✅       |
 | 按地理位置伪装时区                                 |        |       ✅       |
 | 按地理位置伪装语言区域/地区                        |        |       ✅       |
