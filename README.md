@@ -14,7 +14,8 @@
 HideMyAndroid is a privacy-focused Android module built to reduce app tracking and device fingerprinting through profile-based masking/spoofing.
 
 Official Website: https://www.hidemyandroid.com  
-Web App / Dashboard: https://app.hidemyandroid.com
+Web App / Dashboard: https://app.hidemyandroid.com  
+How to install: https://www.hidemyandroid.com/en/how-to-install/
 
 ### Requirements
 
@@ -110,7 +111,8 @@ If you need a specific capability, share your use case and we will prioritize ba
 HideMyAndroid 是一款以隐私保护为核心的 Android 模块。它通过基于配置文件的隐藏与伪装机制，降低应用跟踪和设备指纹识别风险。
 
 官方网站: https://www.hidemyandroid.com  
-Web 应用 / 控制台: https://app.hidemyandroid.com
+Web 应用 / 控制台: https://app.hidemyandroid.com  
+安装教程: https://www.hidemyandroid.com/zh/how-to-install/
 
 ### 使用要求
 
