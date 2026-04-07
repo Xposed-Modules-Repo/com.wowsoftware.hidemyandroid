@@ -2,6 +2,8 @@
 
 ![HideMyAndroid Thumbnail](images/thumbnail.png)
 
+[![Download](https://img.shields.io/badge/Download-2D333B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Xposed-Modules-Repo/com.wowsoftware.hidemyandroid/releases/latest) [![Latest Release](https://img.shields.io/badge/Latest%20Release-2F81F7?style=for-the-badge)](https://github.com/Xposed-Modules-Repo/com.wowsoftware.hidemyandroid/releases/latest)
+
 <a id="english"></a>
 ## English
 
@@ -9,7 +11,7 @@
 
 ### Support/Discussion
 
-[XDA Thread](https://xdaforums.com/t/app-xposed-9-15-hidemyandroid-advanced-privacy-masking.4781780/)
+Support: https://t.me/wowareofficial
 
 HideMyAndroid is a privacy-focused Android module built to reduce app tracking and device fingerprinting through profile-based masking/spoofing.
 
@@ -46,6 +48,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Virtual Gmail Accounts Per Profile
 - Hide Installed Applications
 - Realistic Sensor Data
+- Device Simulation
 - Profile-Based System
 - Backup & Restore app's data
 - Per-Profile Proxy (each profile can use its own independent proxy configuration)
@@ -66,6 +69,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Hide installed apps list                          |    ✅    |           ✅           |
 | Hide suspicious keyboards from enabled keyboard lists |    ✅    |           ✅           |
 | Virtual default keyboard value spoofing           |    ✅    |           ✅           |
+| Device Simulation                                 |    ✅    |           ✅           |
 | Spoof nearby Wi-Fi networks                       |          |           ✅           |
 | Spoof nearby Bluetooth devices                    |          |           ✅           |
 | Block private LAN scan behavior                   |          |           ✅           |
@@ -106,7 +110,7 @@ If you need a specific capability, share your use case and we will prioritize ba
 
 ### 支持与讨论
 
-[XDA 讨论帖](https://xdaforums.com/t/app-xposed-9-15-hidemyandroid-advanced-privacy-masking.4781780/)
+Support: https://t.me/wowareofficial
 
 HideMyAndroid 是一款以隐私保护为核心的 Android 模块。它通过基于配置文件的隐藏与伪装机制，降低应用跟踪和设备指纹识别风险。
 
@@ -143,6 +147,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 - 每个配置文件使用虚拟 Gmail 账号
 - 隐藏已安装应用列表
 - 拟真的传感器数据
+- 设备模拟
 - 基于配置文件的系统
 - 备份与恢复应用数据
 - 按配置文件设置代理（每个配置文件可使用独立代理配置）
@@ -163,6 +168,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 隐藏已安装应用列表                                 |   ✅   |       ✅       |
 | 在已启用键盘列表中隐藏可疑键盘                     |   ✅   |       ✅       |
 | 虚拟默认键盘值伪装                                 |   ✅   |       ✅       |
+| 设备模拟                                           |   ✅   |       ✅       |
 | 伪造附近 Wi-Fi 网络                                |        |       ✅       |
 | 伪造附近蓝牙设备                                   |        |       ✅       |
 | 阻止私有局域网扫描行为                             |        |       ✅       |
