@@ -34,6 +34,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 
 - Hide Device Identifiers (Android ID, GAID, GSF ID, Widevine DRM ID, IMEI, Serial, ...)
 - Hide VPN Connection
+- Hide Airplane Mode
 - Hide Wi-Fi Information (NAME/MAC)
 - Spoof Nearby Wi-Fi Networks
 - Spoof Nearby Bluetooth Devices
@@ -70,6 +71,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Hide suspicious keyboards from enabled keyboard lists |    ✅    |           ✅           |
 | Virtual default keyboard value spoofing           |    ✅    |           ✅           |
 | Device Simulation                                 |    ✅    |           ✅           |
+| Hide airplane mode state from apps               |          |           ✅           |
 | Spoof nearby Wi-Fi networks                       |          |           ✅           |
 | Spoof nearby Bluetooth devices                    |          |           ✅           |
 | Block private LAN scan behavior                   |          |           ✅           |
@@ -133,6 +135,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 
 - 隐藏设备标识符（Android ID、GAID、GSF ID、Widevine DRM ID、IMEI、Serial 等）
 - 隐藏 VPN 连接状态
+- 隐藏飞行模式状态
 - 隐藏 Wi-Fi 信息（名称/MAC）
 - 伪造附近 Wi-Fi 网络
 - 伪造附近蓝牙设备
@@ -169,6 +172,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 在已启用键盘列表中隐藏可疑键盘                     |   ✅   |       ✅       |
 | 虚拟默认键盘值伪装                                 |   ✅   |       ✅       |
 | 设备模拟                                           |   ✅   |       ✅       |
+| 对应用隐藏飞行模式状态                            |        |       ✅       |
 | 伪造附近 Wi-Fi 网络                                |        |       ✅       |
 | 伪造附近蓝牙设备                                   |        |       ✅       |
 | 阻止私有局域网扫描行为                             |        |       ✅       |
