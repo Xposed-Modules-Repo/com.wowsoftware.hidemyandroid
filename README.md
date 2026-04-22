@@ -35,6 +35,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Hide Device Identifiers (Android ID, GAID, GSF ID, Widevine DRM ID, IMEI, Serial, ...)
 - Hide VPN Connection
 - Hide Active Proxy Connection from Apps
+- Browser Fingerprint
 - Hide Airplane Mode
 - Hide Wi-Fi Information (NAME/MAC)
 - Spoof Nearby Wi-Fi Networks
@@ -73,6 +74,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Virtual default keyboard value spoofing           |    ✅    |           ✅           |
 | Device Simulation                                 |    ✅    |           ✅           |
 | Hide active proxy connection from apps            |          |           ✅           |
+| Browser Fingerprint                               |          |           ✅           |
 | Hide airplane mode state from apps               |          |           ✅           |
 | Spoof nearby Wi-Fi networks                       |          |           ✅           |
 | Spoof nearby Bluetooth devices                    |          |           ✅           |
@@ -138,6 +140,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 - 隐藏设备标识符（Android ID、GAID、GSF ID、Widevine DRM ID、IMEI、Serial 等）
 - 隐藏 VPN 连接状态
 - 对应用隐藏当前代理连接状态
+- 浏览器指纹
 - 隐藏飞行模式状态
 - 隐藏 Wi-Fi 信息（名称/MAC）
 - 伪造附近 Wi-Fi 网络
@@ -176,6 +179,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 虚拟默认键盘值伪装                                 |   ✅   |       ✅       |
 | 设备模拟                                           |   ✅   |       ✅       |
 | 对应用隐藏当前代理连接状态                         |        |       ✅       |
+| 浏览器指纹                                         |        |       ✅       |
 | 对应用隐藏飞行模式状态                            |        |       ✅       |
 | 伪造附近 Wi-Fi 网络                                |        |       ✅       |
 | 伪造附近蓝牙设备                                   |        |       ✅       |
