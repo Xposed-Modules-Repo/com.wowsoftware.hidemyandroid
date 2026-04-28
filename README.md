@@ -11,7 +11,7 @@
 
 ### Support/Discussion
 
-Support: https://t.me/wowareofficial
+Support: https://t.me/hidemyandroid
 
 HideMyAndroid is a privacy-focused Android module built to reduce app tracking and device fingerprinting through profile-based masking/spoofing.
 
@@ -33,6 +33,8 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 ### Feature List
 
 - Hide Device Identifiers (Android ID, GAID, GSF ID, Widevine DRM ID, IMEI, Serial, ...)
+- Spoof SIM Card Info
+- Spoof Mobile Number
 - Hide VPN Connection
 - Hide Active Proxy Connection from Apps
 - Browser Fingerprint
@@ -75,6 +77,8 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Device Simulation                                 |    ✅    |           ✅           |
 | Hide active proxy connection from apps            |          |           ✅           |
 | Browser Fingerprint                               |          |           ✅           |
+| Spoof SIM card info                               |          |           ✅           |
+| Spoof mobile number                               |          |           ✅           |
 | Hide airplane mode state from apps               |          |           ✅           |
 | Spoof nearby Wi-Fi networks                       |          |           ✅           |
 | Spoof nearby Bluetooth devices                    |          |           ✅           |
@@ -116,7 +120,7 @@ If you need a specific capability, share your use case and we will prioritize ba
 
 ### 支持与讨论
 
-Support: https://t.me/wowareofficial
+Support: https://t.me/hidemyandroid
 
 HideMyAndroid 是一款以隐私保护为核心的 Android 模块。它通过基于配置文件的隐藏与伪装机制，降低应用跟踪和设备指纹识别风险。
 
@@ -138,6 +142,8 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 ### 功能一览
 
 - 隐藏设备标识符（Android ID、GAID、GSF ID、Widevine DRM ID、IMEI、Serial 等）
+- 伪装 SIM 卡信息
+- 伪装手机号
 - 隐藏 VPN 连接状态
 - 对应用隐藏当前代理连接状态
 - 浏览器指纹
@@ -180,6 +186,8 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 设备模拟                                           |   ✅   |       ✅       |
 | 对应用隐藏当前代理连接状态                         |        |       ✅       |
 | 浏览器指纹                                         |        |       ✅       |
+| 伪装 SIM 卡信息                                    |        |       ✅       |
+| 伪装手机号                                         |        |       ✅       |
 | 对应用隐藏飞行模式状态                            |        |       ✅       |
 | 伪造附近 Wi-Fi 网络                                |        |       ✅       |
 | 伪造附近蓝牙设备                                   |        |       ✅       |
