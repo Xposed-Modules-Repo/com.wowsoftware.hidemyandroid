@@ -32,7 +32,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 
 ### Feature List
 
-- Hide Device Identifiers (Android ID, GAID, GSF ID, Widevine DRM ID, IMEI, Serial, ...)
+- Spoof Device Identifiers (Android ID, GAID, GSF ID, Widevine DRM ID, App Set ID, IMEI, Serial, ...)
 - Spoof SIM Card Info
 - Spoof Mobile Number
 - Hide VPN Connection
@@ -141,7 +141,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 
 ### 功能一览
 
-- 隐藏设备标识符（Android ID、GAID、GSF ID、Widevine DRM ID、IMEI、Serial 等）
+- 伪装设备标识符（Android ID、GAID、GSF ID、Widevine DRM ID、App Set ID、IMEI、Serial 等）
 - 伪装 SIM 卡信息
 - 伪装手机号
 - 隐藏 VPN 连接状态
@@ -250,7 +250,7 @@ HideMyAndroid — это модуль Android, ориентированный н
 
 ### Список функций
 
-- Скрытие идентификаторов устройства (Android ID, GAID, GSF ID, Widevine DRM ID, IMEI, серийный номер и др.)
+- Подмена идентификаторов устройства (Android ID, GAID, GSF ID, Widevine DRM ID, App Set ID, IMEI, серийный номер и др.)
 - Подмена данных SIM-карты
 - Подмена номера телефона
 - Скрытие VPN-соединения
