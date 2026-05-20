@@ -35,6 +35,8 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Spoof Device Identifiers (Android ID, GAID, GSF ID, Widevine DRM ID, App Set ID, IMEI, Serial, ...)
 - Spoof SIM Card Info
 - Spoof Mobile Number
+- Hide Root
+- Hide LSPosed
 - Hide VPN Connection
 - Hide Active Proxy Connection from Apps
 - Browser Fingerprint
@@ -76,6 +78,8 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Virtual default keyboard value spoofing           |    ✅    |           ✅           |
 | Device Simulation                                 |    ✅    |           ✅           |
 | Hide active proxy connection from apps            |          |           ✅           |
+| Hide Root                                         |          |           ✅           |
+| Hide LSPosed                                      |          |           ✅           |
 | Browser Fingerprint                               |          |           ✅           |
 | Spoof SIM card info                               |          |           ✅           |
 | Spoof mobile number                               |          |           ✅           |
@@ -144,6 +148,8 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 - 伪装设备标识符（Android ID、GAID、GSF ID、Widevine DRM ID、App Set ID、IMEI、Serial 等）
 - 伪装 SIM 卡信息
 - 伪装手机号
+- 隐藏 Root
+- 隐藏 LSPosed
 - 隐藏 VPN 连接状态
 - 对应用隐藏当前代理连接状态
 - 浏览器指纹
@@ -185,6 +191,8 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 虚拟默认键盘值伪装                                 |   ✅   |       ✅       |
 | 设备模拟                                           |   ✅   |       ✅       |
 | 对应用隐藏当前代理连接状态                         |        |       ✅       |
+| 隐藏 Root                                          |        |       ✅       |
+| 隐藏 LSPosed                                       |        |       ✅       |
 | 浏览器指纹                                         |        |       ✅       |
 | 伪装 SIM 卡信息                                    |        |       ✅       |
 | 伪装手机号                                         |        |       ✅       |
@@ -253,6 +261,8 @@ HideMyAndroid — это модуль Android, ориентированный н
 - Подмена идентификаторов устройства (Android ID, GAID, GSF ID, Widevine DRM ID, App Set ID, IMEI, серийный номер и др.)
 - Подмена данных SIM-карты
 - Подмена номера телефона
+- Скрытие Root
+- Скрытие LSPosed
 - Скрытие VPN-соединения
 - Скрытие активного прокси-соединения от приложений
 - Отпечаток браузера
@@ -294,6 +304,8 @@ HideMyAndroid — это модуль Android, ориентированный н
 | Подмена виртуального значения клавиатуры по умолчанию             |    ✅     |         ✅         |
 | Симуляция устройства                                              |    ✅     |         ✅         |
 | Скрытие активного прокси-соединения от приложений                 |           |         ✅         |
+| Скрытие Root                                                      |           |         ✅         |
+| Скрытие LSPosed                                                   |           |         ✅         |
 | Отпечаток браузера                                                |           |         ✅         |
 | Подмена данных SIM-карты                                          |           |         ✅         |
 | Подмена номера телефона                                           |           |         ✅         |
