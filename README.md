@@ -7,7 +7,7 @@
 <a id="english"></a>
 ## English
 
-[English](#english) | [简体中文](#zh-cn) | [Русская версия](#ru)
+[English](#english) | [简体中文](#zh-cn) | [Русская версия](#ru) | [Bahasa Indonesia](#id)
 
 ### Support/Discussion
 
@@ -93,7 +93,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Spoof app identity                                |          |           ✅           |
 | Virtual Gmail accounts per profile                |          |           ✅           |
 | Virtual account isolation per profile             |          |           ✅           |
-| Realistic sensor behavior                         |          |           ✅           |
+| Simulate accelerometer sensor data                |          |           ✅           |
 
 ### Important Notice
 
@@ -120,7 +120,7 @@ If you need a specific capability, share your use case and we will prioritize ba
 <a id="zh-cn"></a>
 ## 简体中文
 
-[English](#english) | [简体中文](#zh-cn) | [Русская версия](#ru)
+[English](#english) | [简体中文](#zh-cn) | [Русская версия](#ru) | [Bahasa Indonesia](#id)
 
 ### 支持与讨论
 
@@ -206,7 +206,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 伪装应用身份                                       |        |       ✅       |
 | 每个配置文件使用虚拟 Gmail 账号                    |        |       ✅       |
 | 每个配置文件的虚拟账号隔离                         |        |       ✅       |
-| 拟真的传感器行为                                   |        |       ✅       |
+| 模拟加速度传感器数据                               |        |       ✅       |
 
 ### 重要提示
 
@@ -233,7 +233,7 @@ HideMyAndroid 正在持续维护，并不断进行功能与稳定性更新。
 <a id="ru"></a>
 ## Русская версия
 
-[English](#english) | [简体中文](#zh-cn) | [Русская версия](#ru)
+[English](#english) | [简体中文](#zh-cn) | [Русская версия](#ru) | [Bahasa Indonesia](#id)
 
 ### Поддержка / Обсуждение
 
@@ -319,7 +319,7 @@ HideMyAndroid — это модуль Android, ориентированный н
 | Подмена идентичности приложения                                   |           |         ✅         |
 | Виртуальные аккаунты Gmail для каждого профиля                    |           |         ✅         |
 | Изоляция виртуальных аккаунтов для каждого профиля                |           |         ✅         |
-| Реалистичное поведение сенсоров                                   |           |         ✅         |
+| Симуляция данных акселерометра                                    |           |         ✅         |
 
 ### Важное уведомление
 
@@ -340,3 +340,116 @@ HideMyAndroid активно поддерживается с непрерывн�
 
 Запросы новых функций приветствуются.  
 Если вам нужна определённая возможность, опишите ваш сценарий использования, и мы расставим приоритеты на основе спроса сообщества.
+
+---
+
+<a id="id"></a>
+## Bahasa Indonesia
+
+[English](#english) | [简体中文](#zh-cn) | [Русская версия](#ru) | [Bahasa Indonesia](#id)
+
+### Dukungan / Diskusi
+
+Support: https://t.me/hidemyandroid
+
+HideMyAndroid adalah modul Android yang berfokus pada privasi, dibuat untuk mengurangi pelacakan aplikasi dan sidik jari perangkat (device fingerprinting) melalui penyamaran/pemalsuan berbasis profil.
+
+Situs Resmi: https://www.hidemyandroid.com  
+Aplikasi Web / Dasbor: https://app.hidemyandroid.com  
+Cara instalasi: https://www.hidemyandroid.com/id/how-to-install/
+
+### Persyaratan
+
+- Android 9.0+ (Pie atau lebih baru)
+- Perangkat Android yang sudah di-root
+- Lingkungan Xposed/LSPosed yang berfungsi dengan baik
+- Jika Anda tidak terbiasa dengan modul Xposed, proyek ini mungkin tidak cocok untuk konfigurasi Anda.
+
+### Cara Kerja
+
+Ketika aplikasi target meminta identifier atau sinyal lingkungan, HideMyAndroid akan mencegat permintaan tersebut dan mengembalikan nilai palsu yang telah dikonfigurasi sesuai dengan profil yang Anda pilih.
+
+### Daftar Fitur
+
+- Memalsukan Identifier Perangkat (Android ID, GAID, GSF ID, Widevine DRM ID, App Set ID, IMEI, Serial, ...)
+- Memalsukan Info Kartu SIM
+- Memalsukan Nomor Ponsel
+- Sembunyikan Root
+- Sembunyikan LSPosed
+- Sembunyikan Koneksi VPN
+- Sembunyikan Koneksi Proxy Aktif dari Aplikasi
+- Sidik Jari Browser
+- Sembunyikan Mode Pesawat
+- Sembunyikan Informasi Wi-Fi (NAMA/MAC)
+- Memalsukan Jaringan Wi-Fi di Sekitar
+- Memalsukan Perangkat Bluetooth di Sekitar
+- Blokir Pemindaian LAN
+- Sembunyikan Mode Pengembang
+- Memalsukan Instalasi dari Play Store
+- Memalsukan Zona Waktu Berdasarkan IP
+- Memalsukan Wilayah Berdasarkan IP
+- Memalsukan Lokasi GPS Berdasarkan IP
+- Memalsukan Identitas Aplikasi
+- Lingkungan Akun Terisolasi
+- Akun Gmail Virtual Per Profil
+- Sembunyikan Aplikasi Terpasang
+- Data Sensor Realistis
+- Simulasi Perangkat
+- Sistem Berbasis Profil
+- Pencadangan & Pemulihan data aplikasi
+- Proxy Per Profil (setiap profil dapat menggunakan konfigurasi proxy independennya sendiri)
+- Sembunyikan Keyboard Mencurigakan
+- Nilai Keyboard Default Virtual
+- Dan Banyak Fitur Lainnya
+
+### Gratis vs Premium
+
+| Fitur                                                  | Freemium | Premium (Langganan) |
+| ------------------------------------------------------ | :------: | :-----------------: |
+| Sembunyikan identifier perangkat (sebagian/penuh sesuai paket) |    ✅    |          ✅          |
+| Pencadangan & pemulihan data aplikasi                  |    ✅    |          ✅          |
+| Sembunyikan VPN aktif dari aplikasi                    |    ✅    |          ✅          |
+| Memalsukan Wi-Fi SSID/BSSID                            |    ✅    |          ✅          |
+| Sembunyikan status Opsi Pengembang                     |    ✅    |          ✅          |
+| Memalsukan installer sebagai Google Play               |    ✅    |          ✅          |
+| Sembunyikan daftar aplikasi terpasang                  |    ✅    |          ✅          |
+| Sembunyikan keyboard mencurigakan dari daftar keyboard aktif |    ✅    |          ✅          |
+| Pemalsuan nilai keyboard default virtual               |    ✅    |          ✅          |
+| Simulasi Perangkat                                     |    ✅    |          ✅          |
+| Sembunyikan koneksi proxy aktif dari aplikasi          |          |          ✅          |
+| Sembunyikan Root                                       |          |          ✅          |
+| Sembunyikan LSPosed                                    |          |          ✅          |
+| Sidik Jari Browser                                     |          |          ✅          |
+| Memalsukan info kartu SIM                              |          |          ✅          |
+| Memalsukan nomor ponsel                                |          |          ✅          |
+| Sembunyikan status mode pesawat dari aplikasi          |          |          ✅          |
+| Memalsukan jaringan Wi-Fi di sekitar                   |          |          ✅          |
+| Memalsukan perangkat Bluetooth di sekitar              |          |          ✅          |
+| Blokir perilaku pemindaian LAN privat                  |          |          ✅          |
+| Memalsukan zona waktu berdasarkan geo                  |          |          ✅          |
+| Memalsukan locale/wilayah berdasarkan geo              |          |          ✅          |
+| Memalsukan GPS berdasarkan geo                         |          |          ✅          |
+| Memalsukan identitas aplikasi                          |          |          ✅          |
+| Akun Gmail virtual per profil                          |          |          ✅          |
+| Isolasi akun virtual per profil                        |          |          ✅          |
+| Simulasikan data sensor akselerometer                  |          |          ✅          |
+
+### Pemberitahuan Penting
+
+Modifikasi tingkat sistem selalu membawa risiko.  
+Harap cadangkan ROM dan data penting Anda sebelum digunakan.
+
+### Penafian
+
+Gunakan dengan risiko Anda sendiri.  
+Dengan memasang atau menggunakan HideMyAndroid, Anda sepenuhnya bertanggung jawab atas cara Anda menggunakannya.  
+Pengembang tidak bertanggung jawab atas penyalahgunaan, pelanggaran hukum/kebijakan platform, penalti akun, kehilangan data, ketidakstabilan, atau bootloop.
+
+### Pembaruan Berkelanjutan
+
+HideMyAndroid dikelola secara aktif dengan pembaruan fitur dan stabilitas yang berkelanjutan.
+
+### Permintaan Fitur
+
+Permintaan fitur sangat diterima.  
+Jika Anda membutuhkan kemampuan tertentu, bagikan kasus penggunaan Anda dan kami akan memprioritaskannya berdasarkan permintaan komunitas.
