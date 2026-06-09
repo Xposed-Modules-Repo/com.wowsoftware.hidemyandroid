@@ -46,6 +46,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Spoof Nearby Bluetooth Devices
 - Block LAN Scan
 - Hide Developer Mode
+- Headless Mode (Developer Mode)
 - Spoof Play Store Installation
 - Spoof Timezone Based on IP
 - Spoof Region Based on IP
@@ -94,6 +95,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Virtual Gmail accounts per profile                |          |           ✅           |
 | Virtual account isolation per profile             |          |           ✅           |
 | Simulate accelerometer sensor data                |          |           ✅           |
+| Headless Mode (Developer Mode)                    |          |           ✅           |
 
 ### Important Notice
 
@@ -159,6 +161,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 - 伪造附近蓝牙设备
 - 阻止局域网扫描
 - 隐藏开发者模式状态
+- 无头模式（开发者模式）
 - 伪装为通过 Play 商店安装
 - 基于 IP 伪装时区
 - 基于 IP 伪装地区
@@ -207,6 +210,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 每个配置文件使用虚拟 Gmail 账号                    |        |       ✅       |
 | 每个配置文件的虚拟账号隔离                         |        |       ✅       |
 | 模拟加速度传感器数据                               |        |       ✅       |
+| 无头模式（开发者模式）                             |        |       ✅       |
 
 ### 重要提示
 
@@ -272,6 +276,7 @@ HideMyAndroid — это модуль Android, ориентированный н
 - Подмена ближайших Bluetooth-устройств
 - Блокировка сканирования локальной сети
 - Скрытие режима разработчика
+- Headless-режим (Режим разработчика)
 - Подмена факта установки через Play Маркет
 - Подмена часового пояса по IP
 - Подмена региона по IP
@@ -320,6 +325,7 @@ HideMyAndroid — это модуль Android, ориентированный н
 | Виртуальные аккаунты Gmail для каждого профиля                    |           |         ✅         |
 | Изоляция виртуальных аккаунтов для каждого профиля                |           |         ✅         |
 | Симуляция данных акселерометра                                    |           |         ✅         |
+| Headless-режим (Режим разработчика)                               |           |         ✅         |
 
 ### Важное уведомление
 
@@ -385,6 +391,7 @@ Ketika aplikasi target meminta identifier atau sinyal lingkungan, HideMyAndroid 
 - Memalsukan Perangkat Bluetooth di Sekitar
 - Blokir Pemindaian LAN
 - Sembunyikan Mode Pengembang
+- Mode Headless (Mode Pengembang)
 - Memalsukan Instalasi dari Play Store
 - Memalsukan Zona Waktu Berdasarkan IP
 - Memalsukan Wilayah Berdasarkan IP
@@ -433,6 +440,7 @@ Ketika aplikasi target meminta identifier atau sinyal lingkungan, HideMyAndroid 
 | Akun Gmail virtual per profil                          |          |          ✅          |
 | Isolasi akun virtual per profil                        |          |          ✅          |
 | Simulasikan data sensor akselerometer                  |          |          ✅          |
+| Mode Headless (Mode Pengembang)                        |          |          ✅          |
 
 ### Pemberitahuan Penting
 
