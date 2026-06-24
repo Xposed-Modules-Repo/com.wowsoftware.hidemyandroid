@@ -56,6 +56,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Virtual Gmail Accounts Per Profile
 - Hide Installed Applications
 - Realistic Sensor Data
+- Spoof Device Uptime
 - Device Simulation
 - Profile-Based System
 - Backup & Restore app's data
@@ -95,6 +96,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Virtual Gmail accounts per profile                |          |           ✅           |
 | Virtual account isolation per profile             |          |           ✅           |
 | Simulate accelerometer sensor data                |          |           ✅           |
+| Spoof device uptime                               |          |           ✅           |
 | Headless Mode (Developer Mode)                    |          |           ✅           |
 
 ### Important Notice
@@ -171,6 +173,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 - 每个配置文件使用虚拟 Gmail 账号
 - 隐藏已安装应用列表
 - 拟真的传感器数据
+- 伪装设备运行时间
 - 设备模拟
 - 基于配置文件的系统
 - 备份与恢复应用数据
@@ -210,6 +213,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 每个配置文件使用虚拟 Gmail 账号                    |        |       ✅       |
 | 每个配置文件的虚拟账号隔离                         |        |       ✅       |
 | 模拟加速度传感器数据                               |        |       ✅       |
+| 伪装设备运行时间                                   |        |       ✅       |
 | 无头模式（开发者模式）                             |        |       ✅       |
 
 ### 重要提示
@@ -286,6 +290,7 @@ HideMyAndroid — это модуль Android, ориентированный н
 - Виртуальные аккаунты Gmail для каждого профиля
 - Скрытие списка установленных приложений
 - Реалистичные данные сенсоров
+- Подмена времени работы устройства
 - Симуляция устройства
 - Система на основе профилей
 - Резервное копирование и восстановление данных приложений
@@ -325,6 +330,7 @@ HideMyAndroid — это модуль Android, ориентированный н
 | Виртуальные аккаунты Gmail для каждого профиля                    |           |         ✅         |
 | Изоляция виртуальных аккаунтов для каждого профиля                |           |         ✅         |
 | Симуляция данных акселерометра                                    |           |         ✅         |
+| Подмена времени работы устройства                                 |           |         ✅         |
 | Headless-режим (Режим разработчика)                               |           |         ✅         |
 
 ### Важное уведомление
@@ -401,6 +407,7 @@ Ketika aplikasi target meminta identifier atau sinyal lingkungan, HideMyAndroid 
 - Akun Gmail Virtual Per Profil
 - Sembunyikan Aplikasi Terpasang
 - Data Sensor Realistis
+- Memalsukan Waktu Aktif Perangkat
 - Simulasi Perangkat
 - Sistem Berbasis Profil
 - Pencadangan & Pemulihan data aplikasi
@@ -440,6 +447,7 @@ Ketika aplikasi target meminta identifier atau sinyal lingkungan, HideMyAndroid 
 | Akun Gmail virtual per profil                          |          |          ✅          |
 | Isolasi akun virtual per profil                        |          |          ✅          |
 | Simulasikan data sensor akselerometer                  |          |          ✅          |
+| Memalsukan waktu aktif perangkat                       |          |          ✅          |
 | Mode Headless (Mode Pengembang)                        |          |          ✅          |
 
 ### Pemberitahuan Penting
