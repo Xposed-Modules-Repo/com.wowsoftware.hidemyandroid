@@ -96,6 +96,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Virtual Gmail accounts per profile                |          |           ✅           |
 | Virtual account isolation per profile             |          |           ✅           |
 | Simulate accelerometer sensor data                |          |           ✅           |
+| Simulate gyroscope sensor data                    |          |           ✅           |
 | Spoof device uptime                               |          |           ✅           |
 | Headless Mode (Developer Mode)                    |          |           ✅           |
 
@@ -213,6 +214,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 每个配置文件使用虚拟 Gmail 账号                    |        |       ✅       |
 | 每个配置文件的虚拟账号隔离                         |        |       ✅       |
 | 模拟加速度传感器数据                               |        |       ✅       |
+| 模拟陀螺仪传感器数据                               |        |       ✅       |
 | 伪装设备运行时间                                   |        |       ✅       |
 | 无头模式（开发者模式）                             |        |       ✅       |
 
@@ -330,6 +332,7 @@ HideMyAndroid — это модуль Android, ориентированный н
 | Виртуальные аккаунты Gmail для каждого профиля                    |           |         ✅         |
 | Изоляция виртуальных аккаунтов для каждого профиля                |           |         ✅         |
 | Симуляция данных акселерометра                                    |           |         ✅         |
+| Симуляция данных гироскопа                                        |           |         ✅         |
 | Подмена времени работы устройства                                 |           |         ✅         |
 | Headless-режим (Режим разработчика)                               |           |         ✅         |
 
@@ -447,6 +450,7 @@ Ketika aplikasi target meminta identifier atau sinyal lingkungan, HideMyAndroid 
 | Akun Gmail virtual per profil                          |          |          ✅          |
 | Isolasi akun virtual per profil                        |          |          ✅          |
 | Simulasikan data sensor akselerometer                  |          |          ✅          |
+| Simulasikan data sensor giroskop                       |          |          ✅          |
 | Memalsukan waktu aktif perangkat                       |          |          ✅          |
 | Mode Headless (Mode Pengembang)                        |          |          ✅          |
 
