@@ -97,6 +97,7 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Virtual account isolation per profile             |          |           ✅           |
 | Simulate accelerometer sensor data                |          |           ✅           |
 | Simulate gyroscope sensor data                    |          |           ✅           |
+| Simulate light sensor data                        |          |           ✅           |
 | Spoof device uptime                               |          |           ✅           |
 | Headless Mode (Developer Mode)                    |          |           ✅           |
 
@@ -215,6 +216,7 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 每个配置文件的虚拟账号隔离                         |        |       ✅       |
 | 模拟加速度传感器数据                               |        |       ✅       |
 | 模拟陀螺仪传感器数据                               |        |       ✅       |
+| 模拟光线传感器数据                                |        |       ✅       |
 | 伪装设备运行时间                                   |        |       ✅       |
 | 无头模式（开发者模式）                             |        |       ✅       |
 
@@ -333,6 +335,7 @@ HideMyAndroid — это модуль Android, ориентированный н
 | Изоляция виртуальных аккаунтов для каждого профиля                |           |         ✅         |
 | Симуляция данных акселерометра                                    |           |         ✅         |
 | Симуляция данных гироскопа                                        |           |         ✅         |
+| Симуляция данных датчика освещённости                             |           |         ✅         |
 | Подмена времени работы устройства                                 |           |         ✅         |
 | Headless-режим (Режим разработчика)                               |           |         ✅         |
 
@@ -451,6 +454,7 @@ Ketika aplikasi target meminta identifier atau sinyal lingkungan, HideMyAndroid 
 | Isolasi akun virtual per profil                        |          |          ✅          |
 | Simulasikan data sensor akselerometer                  |          |          ✅          |
 | Simulasikan data sensor giroskop                       |          |          ✅          |
+| Simulasikan data sensor cahaya                         |          |          ✅          |
 | Memalsukan waktu aktif perangkat                       |          |          ✅          |
 | Mode Headless (Mode Pengembang)                        |          |          ✅          |
 
