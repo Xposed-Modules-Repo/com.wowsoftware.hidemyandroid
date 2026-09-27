@@ -55,7 +55,11 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 - Isolated Account Environment
 - Virtual Gmail Accounts Per Profile
 - Hide Installed Applications
-- Realistic Sensor Data
+- Realistic Sensor Data: accelerometer, gyroscope, compass and motion fusion sensors all come from one simulated motion model, while the compass, barometer and light sensor follow the profile's location, altitude and local time, so cross-checks between sensors stay consistent.
+  - Magnetometer: simulate a compass field matching the profile location and device orientation.
+  - Motion fusion sensors: keep gravity, linear acceleration, rotation vector and orientation consistent with the simulated motion.
+  - Barometer: report air pressure that matches the spoofed location's altitude, with slow weather drift.
+  - Sensor list: make the sensor list and each sensor's name, vendor, range and resolution match the simulated device.
 - Spoof Device Uptime
 - Device Simulation
 - Profile-Based System
@@ -98,6 +102,10 @@ When a target app requests identifiers or environment signals, HideMyAndroid int
 | Simulate accelerometer sensor data                |          |           ✅           |
 | Simulate gyroscope sensor data                    |          |           ✅           |
 | Simulate light sensor data                        |          |           ✅           |
+| Simulate magnetometer (compass) data              |          |           ✅           |
+| Simulate motion fusion sensors (gravity, rotation vector, orientation) |          |           ✅           |
+| Simulate barometer (air pressure) data            |          |           ✅           |
+| Match sensor list to the simulated device         |          |           ✅           |
 | Spoof device uptime                               |          |           ✅           |
 | Headless Mode (Developer Mode)                    |          |           ✅           |
 
@@ -174,7 +182,11 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 - 账号隔离环境
 - 每个配置文件使用虚拟 Gmail 账号
 - 隐藏已安装应用列表
-- 拟真的传感器数据
+- 拟真的传感器数据：加速度计、陀螺仪、磁力计和运动融合传感器均来自同一个模拟运动模型，而磁力计、气压计和光线传感器会跟随配置文件的位置、海拔和当地时间，使各传感器之间的交叉校验保持一致。
+  - 磁力计：模拟与配置文件位置和设备朝向一致的指南针磁场。
+  - 运动融合传感器：使重力、线性加速度、旋转矢量和方向与模拟运动保持一致。
+  - 气压计：报告与模拟位置海拔一致的气压，并带有缓慢的天气漂移。
+  - 传感器列表：让传感器列表及每个传感器的名称、厂商、量程和分辨率与模拟设备一致。
 - 伪装设备运行时间
 - 设备模拟
 - 基于配置文件的系统
@@ -217,6 +229,10 @@ Web 应用 / 控制台: https://app.hidemyandroid.com
 | 模拟加速度传感器数据                               |        |       ✅       |
 | 模拟陀螺仪传感器数据                               |        |       ✅       |
 | 模拟光线传感器数据                                |        |       ✅       |
+| 模拟磁力计（指南针）数据                           |        |       ✅       |
+| 模拟运动融合传感器（重力、旋转矢量、方向）         |        |       ✅       |
+| 模拟气压计（气压）数据                             |        |       ✅       |
+| 传感器列表与模拟设备匹配                           |        |       ✅       |
 | 伪装设备运行时间                                   |        |       ✅       |
 | 无头模式（开发者模式）                             |        |       ✅       |
 
@@ -293,7 +309,11 @@ HideMyAndroid — это модуль Android, ориентированный н
 - Изолированная среда для аккаунтов
 - Виртуальные аккаунты Gmail для каждого профиля
 - Скрытие списка установленных приложений
-- Реалистичные данные сенсоров
+- Реалистичные данные сенсоров: акселерометр, гироскоп, магнитометр и датчики слияния движения используют одну имитируемую модель движения, а магнитометр, барометр и датчик освещённости следуют местоположению, высоте и местному времени профиля, поэтому перекрёстные проверки между датчиками остаются согласованными.
+  - Магнитометр: имитирует магнитное поле компаса по местоположению профиля и ориентации устройства.
+  - Датчики слияния движения: согласует гравитацию, линейное ускорение, вектор вращения и ориентацию с имитируемым движением.
+  - Барометр: сообщает атмосферное давление, соответствующее высоте подменённого местоположения, с медленным погодным дрейфом.
+  - Список датчиков: список датчиков и имя, производитель, диапазон и разрешение каждого датчика соответствуют имитируемому устройству.
 - Подмена времени работы устройства
 - Симуляция устройства
 - Система на основе профилей
@@ -336,6 +356,10 @@ HideMyAndroid — это модуль Android, ориентированный н
 | Симуляция данных акселерометра                                    |           |         ✅         |
 | Симуляция данных гироскопа                                        |           |         ✅         |
 | Симуляция данных датчика освещённости                             |           |         ✅         |
+| Симуляция данных магнитометра (компас)                            |           |         ✅         |
+| Симуляция датчиков слияния движения (гравитация, вектор вращения, ориентация) |           |         ✅         |
+| Симуляция данных барометра (атмосферное давление)                 |           |         ✅         |
+| Список датчиков как у симулируемого устройства                    |           |         ✅         |
 | Подмена времени работы устройства                                 |           |         ✅         |
 | Headless-режим (Режим разработчика)                               |           |         ✅         |
 
@@ -412,7 +436,11 @@ Ketika aplikasi target meminta identifier atau sinyal lingkungan, HideMyAndroid 
 - Lingkungan Akun Terisolasi
 - Akun Gmail Virtual Per Profil
 - Sembunyikan Aplikasi Terpasang
-- Data Sensor Realistis
+- Data Sensor Realistis: akselerometer, giroskop, magnetometer, dan sensor fusi gerak berasal dari satu model gerakan simulasi, sedangkan magnetometer, barometer, dan sensor cahaya mengikuti lokasi, ketinggian, dan waktu lokal profil, sehingga pemeriksaan silang antar sensor tetap konsisten.
+  - Magnetometer: menyimulasikan medan kompas sesuai lokasi profil dan orientasi perangkat.
+  - Sensor fusi gerak: menjaga gravitasi, akselerasi linear, rotation vector, dan orientasi konsisten dengan gerakan simulasi.
+  - Barometer: melaporkan tekanan udara yang sesuai dengan ketinggian lokasi palsu, dengan pergeseran cuaca yang lambat.
+  - Daftar sensor: membuat daftar sensor serta nama, vendor, jangkauan, dan resolusi tiap sensor sesuai perangkat simulasi.
 - Memalsukan Waktu Aktif Perangkat
 - Simulasi Perangkat
 - Sistem Berbasis Profil
@@ -455,6 +483,10 @@ Ketika aplikasi target meminta identifier atau sinyal lingkungan, HideMyAndroid 
 | Simulasikan data sensor akselerometer                  |          |          ✅          |
 | Simulasikan data sensor giroskop                       |          |          ✅          |
 | Simulasikan data sensor cahaya                         |          |          ✅          |
+| Simulasikan data magnetometer (kompas)                 |          |          ✅          |
+| Simulasikan sensor fusi gerak (gravitasi, vektor rotasi, orientasi) |          |          ✅          |
+| Simulasikan data barometer (tekanan udara)             |          |          ✅          |
+| Daftar sensor sesuai perangkat yang disimulasikan      |          |          ✅          |
 | Memalsukan waktu aktif perangkat                       |          |          ✅          |
 | Mode Headless (Mode Pengembang)                        |          |          ✅          |
 
